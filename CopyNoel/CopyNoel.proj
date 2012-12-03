@@ -58,6 +58,10 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\services\tile_event.png" />
+    <Content Include="images\services\tile_onsite.png" />
+    <Content Include="images\services\tile_register.png" />
+    <Content Include="images\services\tile_site.png" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -73,11 +77,6 @@
     <Content Include="images\pic2.jpg" />
     <Content Include="images\pic2_large.jpg" />
     <Content Include="images\pyt_07_balc_view_small.jpg" />
-    <Content Include="images\services\tile_event.png" />
-    <Content Include="images\services\tile_onsite.png" />
-    <Content Include="images\services\tile_register.png" />
-    <Content Include="images\services\tile_site.png" />
-    <Content Include="images\services\tile_speaker.png" />
     <Content Include="index.html" />
     <Content Include="kendo\js\jquery.min.js" />
     <Content Include="kendo\js\kendo.mobile.min.js" />
