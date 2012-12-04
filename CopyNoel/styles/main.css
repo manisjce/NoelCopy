@@ -1,0 +1,66 @@
+body
+{
+	font: Arial, sans-serif;
+}
+
+.buttonArea,
+.footerText,
+#geoLocationContainer,
+#helloWorldInput,
+#helloWorldText
+{
+	text-align: center;
+}
+
+#txtName
+{
+	border: 1px solid #aaa;
+	border-radius: 15px;
+	position: static;
+	margin-left: 1em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	background: white;
+	color: black;
+	padding: 7px;
+}
+
+#main
+{
+    background: url(../images/pyt_07_balc_view_small.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 890px;
+    width: 100%;
+}
+
+#main h1 
+{
+    color: #ffffff;
+    font-size: 118px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 80px 0px 0px 0px;
+    background-color: rgba(0,0,0,.5);
+}
+
+#campus_map
+{
+    background: url(../images/CampusMap82112.png) no-repeat top left fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 1500px;
+    width: 100%;
+}
+
+#campus_map h1 
+{
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+

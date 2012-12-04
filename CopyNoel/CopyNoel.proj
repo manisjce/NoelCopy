@@ -35,6 +35,7 @@
     <Folder Include="kendo\styles" />
     <Folder Include="kendo\styles\images" />
     <Folder Include="scripts" />
+    <Folder Include="styles" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -85,6 +86,8 @@
     <Content Include="kendo\styles\images\icons.png" />
     <Content Include="kendo\styles\images\ios-sprite.png" />
     <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\main_original.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
