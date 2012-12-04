@@ -60,6 +60,7 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="footer.inc" />
     <Content Include="media\1.png" />
     <Content Include="images\services\tile_event.png" />
     <Content Include="images\services\tile_onsite.png" />

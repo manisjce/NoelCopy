@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 	</head>
 
 	<body>
@@ -24,16 +24,27 @@
 
 			<div id="main">
 				<h1>EXPERIENCE</h1>
-				<div data-role="footer" data-position="fixed" data-fullscreen="true" align="center">
-					<div data-role="controlgroup" data-type="horizontal" data-mini="true">
-						<a href="#home" data-role="button" data-icon="home">Home</a>
-						<a href="#campus_map" data-role="button" data-icon="star">Campus Map</a>
-						<a href="#services" data-role="button" data-icon="gear">Services</a>
-						<a href="#button1" data-role="button" data-icon="info">Button1</a>
-						<a href="#button2" data-role="button" data-icon="refresh">Button2</a>
-
-					</div>
+			<div data-role="footer"  data-position="fixed" data-fullscreen="true" data-id="myfooter">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home" data-icon="home">Home</a>
+						</li>
+						<li>
+							<a href="#campus_map" data-icon="star">Campus Map</a>
+						</li>
+						<li>
+							<a href="#services" data-icon="gear">Services</a>
+						</li>
+						<li>
+							<a href="#map" data-icon="info">map</a>
+						</li>
+						<li>
+							<a href="#button2" data-icon="refresh">Button2</a>
+						</li>
+					</ul>
 				</div>
+			</div>
 			</div>
 
 		</div>
@@ -89,17 +100,27 @@
 				</div>
 
 			</div>
-                    
-<div data-role="footer" data-position="fixed" data-fullscreen="true" align="center">
-					<div data-role="controlgroup" data-type="horizontal" data-mini="true">
-						<a href="#home" data-role="button" data-icon="home">Home</a>
-						<a href="#campus_map" data-role="button" data-icon="star">Campus Map</a>
-						<a href="#services" data-role="button" data-icon="gear">Services</a>
-						<a href="#button1" data-role="button" data-icon="info">Button1</a>
-						<a href="#button2" data-role="button" data-icon="refresh">Button2</a>
-
-					</div>
+			<div data-role="footer" data-position="fixed" data-fullscreen="true"data-id="myfooter">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home" data-icon="home">Home</a>
+						</li>
+						<li>
+							<a href="#campus_map" data-icon="star">Campus Map</a>
+						</li>
+						<li>
+							<a href="#services" data-icon="gear">Services</a>
+						</li>
+						<li>
+							<a href="#map" data-icon="info">map</a>
+						</li>
+						<li>
+							<a href="#button2" data-icon="refresh">Button2</a>
+						</li>
+					</ul>
 				</div>
+			</div>
 
 		</div>
 
@@ -145,7 +166,7 @@
 				<img class="popphoto4" src="images/services/tile_site.png" alt="kid">
 			</div>
 
-			<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="myfooter">
 				<div data-role="navbar">
 					<ul>
 						<li>
@@ -158,7 +179,7 @@
 							<a href="#services" data-icon="gear">Services</a>
 						</li>
 						<li>
-							<a href="#button1" data-icon="info">Button1</a>
+							<a href="#map" data-icon="info">map</a>
 						</li>
 						<li>
 							<a href="#button2" data-icon="refresh">Button2</a>
@@ -169,10 +190,10 @@
 
 		</div>
 
-		<div data-role="page" id="button1" data-title=" ">
-			button1
+		<div data-role="page" id="map" data-title=" ">
+			Map
 
-			<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="myfooter">
 				<div data-role="navbar">
 					<ul>
 						<li>
@@ -185,7 +206,7 @@
 							<a href="#services" data-icon="gear">Services</a>
 						</li>
 						<li>
-							<a href="#button1" data-icon="info">Button1</a>
+							<a href="#map" data-icon="info">map</a>
 						</li>
 						<li>
 							<a href="#button2" data-icon="refresh">Button2</a>
@@ -199,7 +220,7 @@
 		<div data-role="page" id="button2" data-title=" ">
 			button2
 
-			<div data-role="footer" data-position="fixed" data-fullscreen="true">
+			<div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="myfooter">
 				<div data-role="navbar">
 					<ul>
 						<li>
@@ -212,7 +233,7 @@
 							<a href="#services" data-icon="gear">Services</a>
 						</li>
 						<li>
-							<a href="#button1" data-icon="info">Button1</a>
+							<a href="#map" data-icon="info">map</a>
 						</li>
 						<li>
 							<a href="#button2" data-icon="refresh">Button2</a>
